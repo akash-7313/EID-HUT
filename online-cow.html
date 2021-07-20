@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-cow-hut</title>
+    <link rel="shortcut icon" href="logo-cow.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="cow.css">
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header>
+
+        <!-- nav section -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light cow-nav-text cow-nav-bg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="logo-cow.png" alt=""
+                        class="d-inline-block align-text-top"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deshi">Deshi-Cow</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                types-of-Cow
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#angry">Angry-Cow</a></li>
+                                <li><a class="dropdown-item" href="#cute">Cute-Cow</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Foreign-Cow
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#ame">American</a></li>
+                                <li><a class="dropdown-item" href="#aus">Australian </a></li>
+                                <li><a class="dropdown-item" href="#eu">European </a></li>
+                                <li><a class="dropdown-item" href="#pak">Pakistani</a></li>
+                                <li><a class="dropdown-item" href="#ind">Indian </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cow-gallery
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#funny">Funny-cow</a></li>
+                                <li><a class="dropdown-item" href="#">Animated-cow</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#delivery">Home-Delivery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#login">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- slider section -->
+        <section class="container pt-5 my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner radious">
+                    <div class="carousel-item active">
+                        <div class="row cow-top-bg cow-text p-5 d-flex justify-content-between align-items-center">
+                            <div class="col-lg-7">
+                                <h1>Online Qurbanir Hut</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ut est. Iure praesentium cumque ad!</p>
+                                <h1>$400</h1>
+                                <button class="cow-bt">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="banner/cow-1.png" class="d-block w-100 " alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row cow-top-bg cow-text p-5 d-flex justify-content-between align-items-center">
+                            <div class="col-lg-7">
+                                <h1>Exciting sells off Cow</h1>
+                                <p>
+                                    Get 70% off on special,
+                                    <br>
+                                    50% off on funny cow.
+                                    <br>
+                                    100% off on deshi cow
+                                </p>
+                                <h1>$620</h1>
+                                <button class="cow-bt">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="banner/cow-2.png" class="d-block w-100" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row cow-top-bg cow-text p-5 d-flex justify-content-between align-items-center">
+                            <div class="col-lg-7">
+                                <h1>Get your cow Online</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quisquam facilis similique aliquam, fugit non.</p>
+                                <h1>$570</h1>
+                                <button class="cow-bt">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="banner/cow-3.png" class="d-block w-100" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+    </header>
+
+    <!-- main section -->
+    <main>
+
+        <!-- deshi cow -->
+        <section id="deshi" class="container my-5">
+            <h1>Deshi Cow</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="deshi/deshi-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Shahiwal</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis odio voluptas nesciunt et fugit at?</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$520</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="deshi/deshi-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Sindhi</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias officiis numquam, optio quae adipisci quos!</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$720</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="deshi/deshi-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Jersy</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cum aperiam vel doloremque, reiciendis qui!</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$450</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="deshi/deshi-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Brahma</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis esse nihil asperiores velit earum vero.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$550</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- angry cow -->
+        <section id="angry" class="container my-5">
+            <h1>Angry cow</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="angry/angry-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gir</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, porro voluptatibus? Et reprehenderit hic sequi.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$430</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="angry/angry-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Simen</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In eaque, incidunt minima laboriosam quos ullam.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$320</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- cute cow -->
+        <section id="cute" class="container my-5">
+            <h1>Cute Cow</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="cute/cute-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Aryshire</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, explicabo magni debitis beatae facilis adipisci.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$620</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="cute/cute-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Holsten</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rerum quidem beatae facilis tempora. Nemo!</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$420</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- american cow -->
+        <section id="ame" class="container my-5">
+            <h1>American Cow</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="american/ame-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Shortson</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, suscipit consequuntur doloribus fugiat quaerat minus?</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$820</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="american/ame-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Guernsey</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit nostrum dolorum, perspiciatis asperiores ab?</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$720</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- australian cow -->
+        <section id="aus" class="container my-5">
+            <h1>Australian Cow</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="australian/aus-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nobab</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat qui aliquam, perspiciatis iusto nam tempora?</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$560</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="australian/aus-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kala Tufan</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati esse, cupiditate consequatur ea eveniet debitis.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$620</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- european cow -->
+        <section id="eu" class="container my-5">
+            <h1>European Cow</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="european/eu-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Swiss</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere at quas commodi, obcaecati eveniet.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$1120</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="european/eu-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nordich</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cumque soluta voluptate ex tempore aut?</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$820</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pakistani cow -->
+        <section id="pak" class="container my-5">
+            <h1>Pakistani Cow</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="pakistani/pak-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sultan</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores doloremque et, quidem atque quos nesciunt?</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$420</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="pakistani/pak-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Texas Horn</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti amet eos autem quod quae assumenda?</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$320</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- indian cow -->
+        <section id="ind" class="container my-5">
+            <h1>Indian Cow</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="indian/ind-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ankoli Watcy</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium vero architecto, cumque ad quas perferendis.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$410</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="indian/ind-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hiland</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate modi in pariatur dolorum quaerat. Commodi!</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$340</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- funny cow -->
+        <section id="funny" class="container pt-5 my-5">
+            <h1>Funny Cow</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="galery/couple/c.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Couple Cow</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora illum recusandae cum asperiores quia odio.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$1920</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="galery/don't touch me/s.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Stylish Cow</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi labore doloremque perferendis deleniti nostrum est.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$820</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="galery/jamai/j.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bor Cow</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel accusantium neque repellat! Eum, pariatur.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$1350</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="galery/shoping/s.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Shopping Cow</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem minima nemo maiores obcaecati consequatur ipsa?</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>$750</h5>
+                            <button class="cow-bt">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- home delivery -->
+        <section id="delivery" class="container pt-5 my-5">
+            <h1>Home delivery service</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="home-delivery/delivery.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Moto Delivery</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur adipisci et asperiores voluptatem, delectus qui.</p>
+                        </div>
+                        <div class="m-3">
+                            <h5>Free of Cost</h5>
+                            <button class="cow-bt">Enjoy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- eid mubarok -->
+        <section id="delivery" class="container pt-5 my-5">
+            <h1>Eid Mubarok</h1>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 radious shadow-lg">
+                        <img src="galery/trans/eid.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscribe -->
+        <section id="login"
+            class="container cow-top-bg cow-text my-5 px-5 radious d-flex justify-content-center align-items-center"
+            style="height: 300px;">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input class="form-control" type="text" name="" id="" placeholder="Enter your name" required>
+                <br>
+                <input class="form-control" type="email" name="" id="" placeholder="Enter your email address" required>
+                <br>
+                <button type="submit" class="cow-bt">Login</button>
+            </div>
+        </section>
+
+        <!-- audio section -->
+        <section id="delivery" class="container pt-5 my-5">
+            <audio autoplay src="audio/Muhammad Nabina (محمد نبينا) full Naat _ Ya Nabi Salam Alayka _ Mohamed Tarek & Mohamed Youssef.mp3"></audio>
+        </section>
+        
+    </main>
+    
+    <!-- footer section -->
+    <footer class="container text-center my-5">
+        <p>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

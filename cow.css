@@ -1,0 +1,23 @@
+
+.cow-top-bg{
+    background-color: #3532d8;
+}
+.radious{
+    border-radius: 15px;
+}
+.cow-bt{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+.cow-nav-bg{
+    background-color: deepskyblue;
+}
+.cow-text, h1{
+    color: white;
+}
+body{
+    background-image: linear-gradient(to bottom, #241013 0%, #640b2d69 100%);
+}
